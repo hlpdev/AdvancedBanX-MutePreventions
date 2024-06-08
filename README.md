@@ -1,5 +1,8 @@
 # AdvancedBanX MutePreventions 1.0.0
 
+Bukkit Plugin<br>
+Check out our [Spigot-Page](https://www.spigotmc.org/resources/advancedbanx-mute-preventions.117198/) for more  information!
+
 ![Minecraft Version 1.7-1.20](https://img.shields.io/badge/supports%20minecraft%20versions-1.7--1.20-brightgreen.svg)
 ![license GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-lightgrey.svg)
 
