@@ -1,7 +1,6 @@
 package net.hnt8.advancedban.mutepreventions;
 
 import net.hnt8.advancedban.Universal;
-import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
