@@ -16,6 +16,8 @@ public final class AdvancedBanXMutePreventions extends JavaPlugin implements Lis
     public void onEnable() {
         Logger logger = getLogger();
         
+        new BukkitMetrics(this, 22192);
+        
         if (getServer().getPluginManager().getPlugin("AdvancedBanX") == null) {
             logger.severe("AdvancedBanX is not installed!");
             getServer().getPluginManager().disablePlugin(this);
