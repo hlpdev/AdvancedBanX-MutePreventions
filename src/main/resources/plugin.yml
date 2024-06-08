@@ -1,0 +1,8 @@
+name: AdvancedBanX-MutePreventions
+version: '${project.version}'
+main: net.hnt8.advancedban.mutepreventions.AdvancedBanXMutePreventions
+api-version: '1.20'
+prefix: AdvancedBanX-MutePreventions
+depend: [AdvancedBanX]
+authors: [2vY]
+description: Prevents various ways of communicating to other players in-game when muted.
