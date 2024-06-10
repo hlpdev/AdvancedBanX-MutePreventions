@@ -14,19 +14,23 @@ public final class AdvancedBanXMutePreventions extends JavaPlugin implements Lis
 
     @Override
     public void onEnable() {
-        Logger logger = getLogger();
-        
         new BukkitMetrics(this, 22192);
         
         if (getServer().getPluginManager().getPlugin("AdvancedBanX") == null) {
-            logger.severe("AdvancedBanX is not installed!");
+            getLogger().severe("AdvancedBanX is not installed!");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
         
+        Logger logger = Universal.get().getLogger();
+        
+        logger.info("Enabling addon MutePreventions");
+        
         logger.info("Hooking events...");
         getServer().getPluginManager().registerEvents(this, this);
         logger.info("Successfully hooked events.");
+        
+        logger.info("Successfully enabled addon MutePreventions");
     }
     
     @EventHandler(priority = EventPriority.MONITOR)
